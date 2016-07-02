@@ -1,17 +1,27 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
+<?php
+include("../librerias.php");
+session_start();
+
+
+
+
+//var_dump($_POST);
+
+if (!isset($_SESSION["oUsuario"])){
+	?>
+<!-- Reenvio a la página principal-->
+<script>
+	document.location.href="index.php";
+</script>
+<?php
+}
+$valor=$_POST['valor'];
+$snom=$_POST['nombre'];
+$anio=$_POST['anio'];
+
+$oPro=new Producto($nid=NULL,$snom=NULL,$nprec=NULL,$ndia=NULL,$nfecha=NULL);
+
+if($oPro->Ingresar($snom,$valor,$anio)) echo "Producto ingresado"; else echo "ERROR";
+
+
+?>

@@ -1,5 +1,5 @@
 <?php
-include 'db_constantes.php';
+include 'lib/db_constantes.php';
 
 function dbconnect(){
 	$db=new PDO(MYSQL_SERVER.";".MYSQL_DB,MYSQL_USER,MYSQL_PASS);

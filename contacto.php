@@ -50,4 +50,4 @@ include('menu.php');
 <br>
 <br>
 
-<div id="footer"> diseñado por Mulge </div>
+<div id="footer"> The Reimon 3D </div>

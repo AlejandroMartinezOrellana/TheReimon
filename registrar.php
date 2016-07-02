@@ -19,20 +19,20 @@ include('menu.php');
       <input type="text" name="Nombre" class="form-input" required/><br>
       <label for="Apellido">Apellido <span></span></label><div></div>
       <input type="text" name="Apellido" class="form-input" required/><br>
-      <label for="rut">rut <span></span></label><div></div>
-      <input type="text" name="rut" id="rut" class="form-input" required/> <br> <img src="" style="float: right"/> </right>
-      <label for="email">Email <span></span></label><div></div>
-      <input type="email" name="email" class="form-input" /><br>
-      <label for="password">password <span></span></label><div></div>
-      <input type="password" name="password" class="form-input" required/><br>
-      <label for="ciudad">ciudad <span></span></label><div></div>
-      <input type="text" name="ciudad" class="form-input" required/><br>
-      <label for="direccion">direccion <span></span></label><div></div>
-      <input type="text" name="direccion" class="form-input" required/><br>
-      <label for="telefono">Telefono <span></span></label><div></div>
-      <input type="text" name="telefono" class="form-input" required/><br>
-      <label for="fechNacimiento">Fecha Nacimiento <span></span></label><div></div>
-      <input type="date" name="fechNacimiento" class="form-input" required/><br>
+      <label for="Rut_cliente">rut <span></span></label><div></div>
+      <input type="text" name="Rut_cliente" id="rut" class="form-input" required/> <br> <img src="" style="float: right"/> </right>
+      <label for="E_mail">Email <span></span></label><div></div>
+      <input type="email" name="E_mail" class="form-input" /><br>
+      <label for="Clave_cliente">password <span></span></label><div></div>
+      <input type="password" name="Clave_cliente" class="form-input" required/><br>
+      <label for="Ciudad">ciudad <span></span></label><div></div>
+      <input type="text" name="Ciudad" class="form-input" required/><br>
+      <label for="Direccion">direccion <span></span></label><div></div>
+      <input type="text" name="Direccion" class="form-input" required/><br>
+      <label for="Telefono">Telefono <span></span></label><div></div>
+      <input type="text" name="Telefono" class="form-input" required/><br>
+      <label for="Fecha_Nacimiento">Fecha Nacimiento <span></span></label><div></div>
+      <input type="date" name="Fecha_Nacimiento" class="form-input" required/><br>
       <br>
       <br>
       <right> <input class="form-btn" name="registrarse" type="submit" value="registrarse"/></right>
@@ -52,4 +52,4 @@ include('menu.php');
 <br>
 <br>
 <br>
-<div id="footer"> diseñado por Mulge </div>
+<div id="footer"> the reimon </div>

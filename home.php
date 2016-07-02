@@ -12,20 +12,21 @@
 include('menu.php');
 ?>
     <br></br>
+    <div>
+        <a href="catalogo.php"><img src="images/catalogo.jpg"  HSPACE="10" VSPACE="10"></a>
+        <a href="contacto.php"><img src="images/contacto.jpg"  HSPACE="20" VSPACE="10"></a>
+        <a href="registrar.php"><img src="images/registro3.jpg"  HSPACE="150" VSPACE="10"></a>
+    </div>
     
-<img src="images/redimencionada1.jpg"  HSPACE="10" VSPACE="10">
-<img src="images/redimencionada2.jpg"  HSPACE="10" VSPACE="10">
-<img src="images/redimencionada4.jpg"  HSPACE="10" VSPACE="10">
-<img src="images/redimencionada5-.jpg" HSPACE="10" VSPACE="10">
-    
+        
 <br>
 <br>
 <center>
-<img  src="images/2016-06-08.png" alt="" />
+    <img  src="images/logo2.png" alt="" />
 </center>
 </body>
 <footer>
-    <p> diseñado por TheReimons</p>
+    <p> diseñado por The Reimons</p>
 </footer>
 </html>
 

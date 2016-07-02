@@ -4,64 +4,51 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/style.css">
    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-   <title>Sweet Dreams</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+
+   <title>The Reimons Cars</title>
 </head>
 <body>
 <?php 
 include('menu.php');
 ?>
+    <h2><em> Vehiculos disponibles para arriendo </em></h2> 
     <br>
     <br>
-    <br>
-<tr>
-    <img src="images/redimencionada1.jpg"><li>cama super KING</li><p aligne="center"> Largo: 200 El Box Spring Ergo-T está compuesto por colchón y base, desarrollados con un avanzado diseño y la última tecnología Rosen, 
-    con telas jacquard belgas de gran belleza y duración.El Colchón posee una arquitectura interior de resortes de acero de respuesta individual 
-    que asegura una perfectaadaptación ergonómica al cuerpo, aumentando la sensación de confort.La Base posee una malla de acero de gran firmeza y flexibilidad
-    a la vez, permitiendo el óptimo funcionamiento del colchón, convirtiendo al Box Spring Ergo - T en la cama más avanzada y sofisticada de su categoría.</p>
-<br>
-<td><img src="images/redimencionada2.jpg"><li>cama super mega KING</li><p aligne="center">Creamos un nuevo objeto de deseo.  Una exclusiva propuesta para quienes buscan el abrigo de un refugio íntimo y la perfección del descanso más absoluto.
-Somnus una cama de elegantes líneas, delicadas texturas y sofisticada confección.
-Somnus, estrena la exclusiva tecnología FLAWLESS BIO-TECH, la máxima perfección en sistemas de descanso humano.
-Confeccionada con un nuevo y lujoso acolchado de suave tejido combinado con fibras de gran aislación térmica que hacen circular el aire y disipan la humedad. 
-Única con un núcleo de suspensión BUFFER PAD, compuesto por 3 avanzados poliuretanos que amortiguan y expanden el peso corporal en toda la superficie 
-de la cama</p>
-<br>
-<td><img src="images/redimencionada3.jpg"><li>cama super ultra mega KING</li><p aligne="center"> sistema de descanso que ha sido diseñado con materiales de última generación
-    junto los mas altos avances tecnológicos y científicos. Destaca si exclusivo sistema de suspensión, compuesto por tres láminas de gel en su interior,
-    distribuidas horizontalmente para proporcionar confort y suavidad a los principales puntos de contacto, ofreciendo un descanso sin precedentes.</p>
-<br>
-<td><img src="images/redimencionada4.jpg"><li>cama super ultra mega hiper KING</li><br><img src="images/2016-06-08.png" style="float: right"/> </right>
-<p aligne="center"> sistema de descanso que ha sido diseñado con materiales de última generación
-    junto los mas altos avances tecnológicos y científicos. Destaca si exclusivo sistema de suspensión, compuesto por tres láminas de gel en su interior,
-    distribuidas horizontalmente para proporcionar confort y suavidad a los principales puntos de contacto, ofreciendo un descanso sin precedentes.</p>
-<br>
-<td><img src="images/redimencionada5-.jpg"><li>cama super ultra mega KING 2</li><p aligne="center"> Largo: 200 El Box Spring Ergo-T está compuesto por colchón y base, desarrollados con un avanzado diseño y la última tecnología Rosen, 
-    con telas jacquard belgas de gran belleza y duración.El Colchón posee una arquitectura interior de resortes de acero de respuesta individual 
-    que asegura una perfectaadaptación ergonómica al cuerpo, aumentando la sensación de confort.La Base posee una malla de acero de gran firmeza y flexibilidad
-    a la vez, permitiendo el óptimo funcionamiento del colchón, convirtiendo al Box Spring Ergo - T en la cama más avanzada y sofisticada de su categoría.</p>
-<br>
-<td><img src="images/redimencionada6.jpg"><li>cama super ultra mega KING 3</li><p aligne="center">Creamos un nuevo objeto de deseo.  Una exclusiva propuesta para quienes buscan el abrigo de un refugio íntimo y la perfección del descanso más absoluto.
-Somnus una cama de elegantes líneas, delicadas texturas y sofisticada confección.
-Somnus, estrena la exclusiva tecnología FLAWLESS BIO-TECH, la máxima perfección en sistemas de descanso humano.
-Confeccionada con un nuevo y lujoso acolchado de suave tejido combinado con fibras de gran aislación térmica que hacen circular el aire y disipan la humedad. 
-Única con un núcleo de suspensión BUFFER PAD, compuesto por 3 avanzados poliuretanos que amortiguan y expanden el peso corporal en toda la superficie 
-de la cama</p>
-<br>
-<td><img src="images/redimencionada7.jpg"><li>cama super ultra mega KING</li><br><img src="images/2016-06-08.png" style="float: right"/> </right>
-<p aligne="center"> sistema de descanso que ha sido diseñado con materiales de última generación
-    junto los mas altos avances tecnológicos y científicos. Destaca si exclusivo sistema de suspensión, compuesto por tres láminas de gel en su interior,
-    distribuidas horizontalmente para proporcionar confort y suavidad a los principales puntos de contacto, ofreciendo un descanso sin precedentes.</p>
-<br>
-<td><img src="images/redimencionada8.jpg"><li>cama super ultra mega KING</li><p aligne="center">Arquitectura de resortes Pocket de acero enfundados individualmente y dispuestos de manera zonificada para diferenciar su respuesta,
-    según peso y contornos del cuerpo, proporcionando una extraordinaria firmeza para sustentar la más delicada sensación de suavidad y placer
-    conocida hasta hoy.</p>
-<br>
-<td><img src="images/redimencionada9.jpg"><li>cama super ultra mega KING</li><p aligne="center"> sistema de descanso que ha sido diseñado con materiales de última generación
-    junto los mas altos avances tecnológicos y científicos. Destaca si exclusivo sistema de suspensión, compuesto por tres láminas de gel en su interior,
-    distribuidas horizontalmente para proporcionar confort y suavidad a los principales puntos de contacto, ofreciendo un descanso sin precedentes.</p>
-<br>
+    <table border="2px">   
+        <tr>
+            <td>
+                <img src="images/au1.jpg"><li>Peugeot 208 </li><p aligne="center"> Largo: 200 se renueva por completo. Esta nueva generación muestra un estilo bien definido, deportivo y elegante. Déjate seducir por su carácter y ponte al volante de un concentrado de energía.</p>
+            </td>            
+         
+            <td>
+                <img src="images/au2.jpg"><li>cama super mega KING</li><p aligne="center">Modelados según el clásico Mustang Fastback con una apariencia elegante, deportiva y aerodinámica, todos los Mustang 2017 tienen faros delanteros de descarga de alta intensidad HID estándar y exclusivas luces LED traseras de tres barras con señales de giro secuenciales. Los tubos de escape dobles son estándar en todos los modelos y las ventilaciones para extraer el aire son estándar en los modelos GT. Y para acompañar tu estilo único, el Mustang viene con una larga lista de opciones para todos los modelos, incluyendo 12 diseños de ruedas que van de 17 a 20 pulgadas.</p>
+            </td>
+        
+            <td> 
+                <img src="images/au3.jpg"><li>Peugeot 308 GTi</li><p aligne="center"> Para satisfacer las exigencias más altas de los especialistas de las versiones deportivas, los expertos de PEUGEOT SPORT, llevados por la misma pasión, fueron los encargados de desarrollar la versión GTi de 308, para hacer del nuevo Peugeot 308 GTi by Peugeot Sport el último compacto deportivo.</p>
+            </td>
+        </tr> 
+        <tr>
+            <td><img src="images/cam1.jpg"><li>Ford F-150</li><br><img style="float: right"/> </right>
+                <p aligne="center"> Presentamos la nueva Ford F-150* Limited: la F-150 más novedosa y lujosa de todos los tiempos.
+                Con una mejor relación potencia-peso que la generación anterior, el modelo F-150 tiene las mejores clasificaciones de consumo estimado por la EPA entre las camionetas de tamaño completo que funcionan con gasolina..</p>
+            </td>
+            
+            <td>
+                <img src="images/cam3.jpg"><li>Ford 4008</li><p aligne="center">A bordo del 4008, los pasajeros disponen de un amplio espacio para las piernas y una altura de techo generosa para una gran libertad de movimientos. El 4008 también ofrece una comodidad digna de un sedán: numerosos acondicionamientos, aire acondicionado automático, guantera refrigerada, tomas de 12 Volts, asientos regulables y alzavidrios eléctricos. Según versión, un techo acristalado panorámico acentúa la sensación de comodidad interior con iluminación de ambiente.</p>
+            </td>
+            <td>
+                <img src="images/fur1.jpg"><li>Peugeot Tepee Outdoor</li><p aligne="center">El nuevo Peugeot Tepee Outdoor incorpora grandes evoluciones tecnológicas y de diseño. Descubre los nuevos equipamientos modernos y conectados y refuerza tu libertad de acción con la gama de motorizaciones eficientes.</p>
+            </td>   
+        </tr>
+    </table>
 
-</tr>
+ </body>
 <footer>
-    <p> diseñado por mulge</p>
+    <p> diseñado por The Reimons</p>
 </footer>
+   

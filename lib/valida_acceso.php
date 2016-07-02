@@ -2,14 +2,14 @@
 include('librerias.php');
 
 /*
- * Verificación del usuario y clave
+ * Verificaciï¿½n del usuario y clave
 * */
 session_start();
 if (!isset($_SESSION["oUsuario"])){
 ?>
-<!-- Reenvio a la página principal-->
+<!-- Reenvio a la pï¿½gina principal-->
 <script>
-	document.location.href="index.php";
+	document.location.href="home.php";
 </script>
 <?php 
 }

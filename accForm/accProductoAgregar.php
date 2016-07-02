@@ -11,7 +11,7 @@ if (!isset($_SESSION["oUsuario"])){
 	?>
 <!-- Reenvio a la página principal-->
 <script>
-	document.location.href="index.php";
+	document.location.href="home.php";
 </script>
 <?php
 }
